@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: "Pretendard";
+}
+
+body {
+}
+
+.todo_container {
+  padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#todo_lifeQuote {
+  font-size: 32px;
+}
+
+.todo_generator {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#todo_listTitle {
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+.todo_lists {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo_lists li {
+  border: 1px solid black;
+  width: 500px;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+ul img {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
